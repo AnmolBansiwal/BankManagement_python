@@ -32,6 +32,37 @@ It includes:
 
 ---
 
+🚀 How to Run the Project
+
+Follow these steps to run the Bank Management System on your system:
+
+1️⃣ Clone the Repository
+git clone https://github.com/AnmolBansiwal/BankManagement_python.git
+cd BankManagement_python
+
+2️⃣ Create a Virtual Environment (Recommended)
+
+python3 -m venv venv
+source venv/bin/activate
+
+3️⃣ Install Required Dependencies
+pip install -r requirements.txt
+
+👉 If requirements.txt is not present, run:
+
+pip install streamlit
+
+4️⃣ Run the Application (Streamlit UI)
+streamlit run app.py
+
+📌 After running, open your browser and go to:
+
+http://localhost:8501
+5️⃣ (Optional) Run CLI Version
+
+If you want to run the terminal version instead:
+
+python main.py
 ## Project Structure
 
 ```bash
